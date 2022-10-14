@@ -1,14 +1,31 @@
 package model;
 
+import  java.util.Queue;
+
+import java.nio.file.attribute.FileAttribute;
+import java.util.Stack;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        
-double valor = 1000.0;
-double depositos = 100.0;
-double divida = 10;
 
-Banco x = new Banco(valor, depositos, divida);
-System.out.println(x.montante());
+
+
+        Fila T  = new Fila<Pessoa>();
+
+
+        T.adicionar(" pessoa1 ");
+        T.adicionar(" pessoa2 ");
+        T.adicionar(" pessoa3 ");
+        T.adicionar(" pessoa4 ");
+        T.adicionar(" pessoa5 ");
+
+
+
+        System.out.println( T.remover());
+
+
+
+
 
     }
 }

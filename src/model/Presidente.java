@@ -1,5 +1,8 @@
 package model;
 
-public class Presidente {
+public class Presidente  extends funcionario implements PessoaFisica,Diretoria {
+
+
+
     
 }

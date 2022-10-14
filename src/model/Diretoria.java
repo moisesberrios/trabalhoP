@@ -1,5 +1,7 @@
 package model;
 
-public interface Diretoria {
+public interface Diretoria  {
+
+
     
 }
